@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Teko:wght@400;600;700&family=Whisper&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Teko', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* 
+font-family: 'Poppins', sans-serif;
+font-family: 'Teko', sans-serif;
+font-family: 'Whisper', cursive; */
+
+.exercise-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.exercise-container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px; /* Add space below the exercise details */
+}
+
+.exercise-image img {
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+.exercise-data {
+  max-width: 600px;
+}
+
+.exercise-data h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.exercise-data p {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.exercise-data ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.exercise-data li {
+  background: #f4f4f4;
+  margin-bottom: 8px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.related-videos-container {
+  margin-top: 20px;
+}
+
+.related-videos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.related-video {
+  width: 300px;
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.related-video:hover {
+  background-color: #f4f4f4;
+}
+
+.related-video img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.related-video h4 {
+  font-size: 18px;
+  margin: 10px 0;
+}
